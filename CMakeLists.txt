@@ -9,4 +9,6 @@ add_executable(TextSC main.cpp
         units/Marine.cpp
         units/Marine.h
         units/Firebat.cpp
-        units/Firebat.h)
+        units/Firebat.h
+        units/DamageType.h
+        units/SizeType.h)

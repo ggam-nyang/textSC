@@ -14,3 +14,7 @@
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+B
+units/DamageType.h,9/4/943b6ec1d6bd6861b10b84925c35435cc9a1a63a
+@
+units/SizeType.h,4/4/444468108e784dfc9afdca2f2561f3ef846eecf0

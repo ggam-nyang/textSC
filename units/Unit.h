@@ -1,5 +1,7 @@
 #include <iostream>
 #include <string>
+#include "DamageType.h"
+
 //
 // Created by ggam-nyang on 2/1/24.
 //
@@ -21,7 +23,7 @@ class Unit {
 
   int damage_;
   int attack_speed_;
-  int damage_type;  // FIXME: enum class
+  DamageType damage_type;  // FIXME: enum class
 
   int size_type_;  // FIXME: enum class
 

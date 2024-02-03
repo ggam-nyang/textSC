@@ -4,10 +4,6 @@
 
 
 int main() {
-    Unit* marine = new Marine();
-
-    delete marine;
-    std::cout << "Hello, World!" << std::endl;
-
+  
     return 0;
 }

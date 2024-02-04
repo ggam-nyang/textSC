@@ -9,20 +9,14 @@
 
 class Marine : public Unit {
  public:
-  Marine() { max_hp_ = }
-
+  Marine();
   ~Marine() override = default;
+  void Attack(Unit& target) override;
+  bool isAlive() override;
 
-  void Attack(Unit& target) override{
-
-  };
-
- public:
- private:
-  const int kMarineMaxHp = 40;
-  const int kMarineDefense = 0;
-  const int kMarineDamage = 6;
-  const int kMarineAttackSpeed = 1;
+  static const int kMarineMaxHp = 40;
+  static const int kMarineDamage = 6;
+  static const int kMarineDefense = 0;
 };
 
 #endif  //TEXTSC_UNITS_MARINE_H_

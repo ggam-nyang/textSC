@@ -1,0 +1,4 @@
+
+~	cpp:S3230
+"bDo not assign data members in a constructor. Initialize member "value_" in an initialization list.(—³Ë—8ô®‘¡×1
+‰	cpp:S3230"hDo not assign data members in a constructor. Initialize member "damage_type_" in an initialization list.(ûúÌøùÿÿÿÿ8ô®‘¡×1

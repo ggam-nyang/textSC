@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
-#include "DamageType.h"
+#include "Damage/Damage.h"
+#include "Defense/Defense.h"
 
 //
 // Created by ggam-nyang on 2/1/24.
@@ -13,24 +14,18 @@ class Unit {
  public:
   virtual ~Unit() = default;
   virtual void Attack(Unit& target) = 0;
+  virtual bool isAlive() = 0;
 
- public:
   std::string name;
-
   int max_hp_;
   int current_hp_;
-  int defense_;
-
-  int damage_;
-  int attack_speed_;
-  DamageType damage_type;  // FIXME: enum class
-
-  int size_type_;  // FIXME: enum class
+  std::shared_ptr<Damage> damage_;
+  std::shared_ptr<Defense> defense_;
 
   // not use for textSC
   // attack_range
   // attack_target_type
-  //
+  // attack_speed
 };
 
 #endif  //TEXTSC_UNIT_H

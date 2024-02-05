@@ -1,0 +1,5 @@
+
+J	cpp:S5817")This function should be declared "const".(˜Î¡¯øÿÿÿÿ8†Ò¿×1
+‡cpp:S995 "gMake the type of this parameter a reference-to-const. The current type of "attacker" is "class Unit &".(ÎÍæøøÿÿÿÿ8ÿë„¾×1
+‡cpp:S995 "gMake the type of this parameter a reference-to-const. The current type of "defender" is "class Unit &".(ÎÍæøøÿÿÿÿ8ÿë„¾×1
+m	cpp:S50253"QReplace the use of "new" with an operation that automatically manages the memory.(ÛÙÒë8Ïàì¾×1
